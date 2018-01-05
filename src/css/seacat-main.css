@@ -1,0 +1,34 @@
+.headerbar {
+    display: inline;
+    font-family: Helvetica;
+    font-size: small;
+    padding: 10px 50px 10px 50px;
+}
+
+.phonenumber {
+	color: rgb(0,156,222);
+}
+
+#row1{
+    display:flex;
+    flex-direction:row;
+justify-content: space-around;
+}
+
+#column1 {
+    display:flex;
+    flex-direction:column;
+
+}
+
+#column2 {
+    display:flex;
+    flex-direction:column;
+
+}
+#column3 {
+    display:flex;
+    flex-direction:column;
+
+}
+
