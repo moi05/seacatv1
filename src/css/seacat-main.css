@@ -1,34 +1,36 @@
-.headerbar {
-    display: inline;
-    font-family: Helvetica;
-    font-size: small;
-    padding: 10px 50px 10px 70px;
+.headerbar {    
+    float: left;
+    padding-right: 250px;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;   
 }
 
-.phonenumber {
+.phonenumber, .fa {
 	color: rgb(0,156,222);
 }
 
-#row1{
+.row {
     display:flex;
     flex-direction:row;
-	justify-content: space-around;
+	justify-content: flex-end;
 }
 
-#column1 {
+#column1, #column3  {
+    font-family: Helvetica;
+    font-size: small;
     display:flow-root;
     flex-direction:column;
+    padding-right: 35px;
 
 }
 
 #column2 {
+    font-family: Helvetica;
+    font-size: small;
     display:flex;
     flex-direction:column;
-
-}
-#column3 {
-    display:flow-root;
-    flex-direction:column;
+    padding-right: 35px;
 
 }
 
