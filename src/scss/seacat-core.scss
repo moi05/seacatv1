@@ -54,7 +54,7 @@ body{
     padding-right: 30px;
 }
 
-ul {
+ul, a {
     list-style-type: none; 
     padding-top: 15px;
     padding-bottom: 15px;
@@ -62,6 +62,7 @@ ul {
     color: white;
     font-weight: 800;
     overflow: hidden;
+    text-decoration: none;
 
 }
 
