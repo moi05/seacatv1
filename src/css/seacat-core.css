@@ -1,5 +1,6 @@
 body {
-  font-size: 16px; }
+  font-size: 16px;
+  font-family: Helvetica; }
 
 .centered-wrapper {
   width: 100%;
@@ -16,7 +17,7 @@ body {
   padding-right: 240px;
   padding-left: 90px;
   padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-bottom: 20px; }
 
 .phonenumber, .fa {
   color: #009cde;
@@ -29,17 +30,29 @@ body {
   justify-content: flex-end; }
 
 #column1, #column3 {
-  font-family: Helvetica;
-  font-size: 1rem;
+  font-size: 0.8rem;
   display: flow-root;
   flex-direction: column;
   padding-right: 30px; }
 
 #column2 {
-  font-family: Helvetica;
-  font-size: small;
+  font-size: 0.8rem;
   display: flex;
   flex-direction: column;
   padding-right: 30px; }
+
+ul {
+  list-style-type: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #004d81;
+  color: white;
+  font-weight: 800;
+  overflow: hidden; }
+
+li {
+  float: left;
+  padding-right: 120px;
+  padding-left: 120px; }
 
 /*# sourceMappingURL=seacat-core.css.map */
