@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,YAAY;EACX,KAAK,EALQ,OAAc",
+"sources": ["../scss/seacat-core.scss"],
+"names": [],
+"file": "seacat-core.css"
+}
