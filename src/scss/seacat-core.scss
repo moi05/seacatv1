@@ -3,73 +3,258 @@ $dodgerblue: rgb(0,156,222);
 $red: rgb(227,6,20);
 $teal: rgb(0,77,129);
 
-body{
-  font-size: 0.7rem;
-  font-family: Helvetica;
-
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-size-adjust: auto;
 }
 
-.centered-wrapper {
-    width: 100%;
-    height: 110px;
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size-adjust: auto;
+}
+
+a {
+    cursor: pointer;
+}
+body {
+    background-color: #fff;
+}
+
+.header {
+    width: 50%;
+    height: 5%;
     position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;    
-    vertical-align: baseline;    
-    display: block;
+    font-family: 'helvetica_roundedbold';
+    font-size: 0.8rem;
+    color: #003B71;
+    margin-top: 5%;
+    margin-right: 5%;        
 }
 
-.headerbar {    
-    float: left;
-    padding-left: 9%;
-    padding-top: 2%;
-    padding-bottom: 1.5%;
+.navbar {
+    font-size: 0.7rem;
+}
+
+.wrapper {
+    width:50%;
+    max-width: 1080px;
+    margin: 2%;
+    position: relative;
 }
 
 .phonenumber, .fa {
 	color: $dodgerblue;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 700;
 }
 
-.row {
-    display:flex;    
+.hgroup {
+    display:flex;     
+    flex-wrap: wrap;       
+    margin-right: 1rem;
+    margin-left: 1rem;   
+}
+
+#site-title {
+     width:40%;
 }
 
 #column1, #column3 {
-    text-align: center;
     flex-direction:column;
+    float: left;
+
 }
 
 #column2 {
     display:flex;
+    float: left;
     flex-direction:column;
 }
 
 ul, a {
-    list-style-type: none; 
-    font-size: 0.8rem;
+    list-style-type: none;
+    font-size: 0.7rem;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
-    background-color: $teal;
+    background-color: #004d81;
     color: white;
     font-weight: 700;
-    overflow: hidden;
     text-decoration: none;
-
-}
 
 li {
     float: left;
     padding-right: 5%;
     padding-left: 1%;
     text-align: center;
+    font-size: 0.7rem;
+}
 
+#reservas {
+    background-color: rgba(255,255,255,0.95);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    min-width: 440px;
+    /*min-height: 340px;*/
+        min-height: 310px;
+    margin-top: 30px;
+    padding-top: 20px;
+    z-index: 1;
+    position: relative;
+}
+#reservas2 {
+    background-color: rgba(255,255,255,0.95);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    max-width: 320px;
+    min-height: 351px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: none;
+    position: absolute;
+    z-index: 3;
+}
+#reservas2 h5, #reservas h5 {
+    color: #E2231A;
+    font-size: 1rem;
+    font-family: 'helvetica_roundedbold';
+}
+#reservas2 .form-inline, #reservas .form-inline {
+    margin-bottom: 6px;
+}
+#reservas2 label, #reservas label {
+    color: #07254D;
+    font-size: 0.7rem;
+    font-family: 'helvetica_roundedbold';
+}
+#reservas2 .buscarpasaje, #reservas .buscarpasaje {
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #4ab03b;
+    border: 0px;
+    width: 130px;
+    height: 35px;
+    font-size: 0.7rem;
+    font-family: 'helvetica_roundedbold';
+    float: right;
+}
+
+.btnreservas i {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.btnreservas {
+    background-color: #E2231A;
+    color: #fff;
+    font-size: 0.7rem;
+    font-family: 'helvetica_roundedbold';
+    position: relative;
+    width: 280px;
+    height: 46px;
+    border: 0px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+input.reservar:hover{
+    text-decoration: underline;
+}
+
+#ui-datepicker-div {
+    z-index: 100 !important;
 }
 
 @media screen and (max-width: 767px) {
-    .headerbar {
+    #reservas2, #reservas {
+        background-color: rgba(255,255,255,0.95);
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        width: 100%;
+        /*min-height: 340px;*/
+        min-height: 310px;
+        margin: 5%;
+        padding-top: 20px;
+        z-index: 1;
+        position: relative;
+    }
+
+    header {
+        width: 60%;
+        min-height: 7%;
+        position: relative;
+    }
+   
+    header .vta {
+        font-size:0.7rem;
+    }
+    #reservas, #reservas2 {
+        background-color: rgba(255,255,255,0.95);
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        max-width: 343px;
+        min-height: 381px;
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: none;
+        position: absolute;
+        z-index: 3;
+        top: 57px;
+        left: 10px;
+    }
+    #reservas3{
+        background-color: rgba(255,255,255,0.95);
+        width: 100%;
+        height: 449px;
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+        position: relative;
+        z-index: 3;
+        top: 0px;
+        left: 0px;
+    }
+
+    #reservas3 h5 {
+        color: #E2231A;
+        font-size: 1rem;
+        font-family: 'helvetica_roundedbold';
+    }
+    #reservas3 .form-inline {
+        margin-bottom: 6px;
+    }
+    #reservas3 label {
+        color: #07254D;
+        font-size: 0.7rem;
+        font-family: 'helvetica_roundedbold';
+    }
+    #reservas3 .buscarpasaje {
+        color: #fff;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background-color: #E2231A;
+        border: 0px;
+        width: 130px;
+        height: 35px;
+        font-size: 0.7rem;
+        font-family: 'helvetica_roundedbold';
         float: right;
     }
+}
 }
