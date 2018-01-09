@@ -11,46 +11,50 @@
 	<meta name="description" content="">
 
 	<!-- CSS -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+   
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
    <!-- <link href="src/css/seacat.min.css" rel="stylesheet">-->   
     <link href="src/css/seacat-core.css" rel="stylesheet">
 
     <!-- favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-</head
-><body> 
+</head>
+
+<body> 
     <!-- HEADER -->
-    <div class="wrapper">
-        <div class="header">                
-            <id="site-title"><img src="src/img/logo-seacat_ar.png">
-        </div>
-        <div class="header">         
-            <hgroup class="hgroup">                                                                 
-                <p  id="column1">Español <i class="fa fa-caret-down"></i></p>
-                <p  id="column2">Venta telefónica <span class="phonenumber"><i class="fa fa-phone" aria-hidden="true"></i> 4314 5100</span></p>   
-                <p id="column3"><img src="src/img/flag-uy.png"width="49" height="37"><img src="src/img/flag-ar.png"></p>             
-            </hgroup>
-        </div>
-    </div>
+    <header>
+        <div class="row">
+            <div class="col-md-4">                
+               <img src="src/img/logo-seacat.png">
+            </div>
+            <div class="col-md-8">         
+                <hgroup>                                                                 
+                    <p  id="column1">Español <i class="fa fa-caret-down"></i></p>
+                    <p  id="column2">Venta telefónica <span class="phonenumber"><i class="fa fa-phone" aria-hidden="true"></i> 4314 5100</span></p>   
+                    <p id="column3"><img src="src/img/flag-uy.png"width="49" height="37"><img src="src/img/flag-ar.png"></p>             
+                </hgroup>
+            </div>
+        </div>    
+    </header>
 
     <!-- NAVBAR -->
-    <div>
-        <nav class="navbar navbar-default">
-            <ul>
-              <li><a href="#daytour">Day Tour</a></li>
-              <li><a href="#modificar-pasajes">Modificar Pasajes</a></li>
-              <li><a href="#puntos-venta">Puntos de Venta</a></li>
-            </ul>                    
-        </nav>
-    </div>
+
+    <nav class="navbar navbar-default">
+        <ul>
+          <li><a href="#daytour">Day Tour</a></li>
+          <li><a href="#modificar-pasajes">Modificar Pasajes</a></li>
+          <li><a href="#puntos-venta">Puntos de Venta</a></li>
+        </ul>                    
+    </nav>
+
 
     <!-- FORM -->      
     <div class="contents">
     <div class="col-md-12" id="slider">
         <div class="navmobile">
 
-    <button type="button" class="btnreservas">Compra tu pasaje<i class="fa fa-angle-down fa-3"></i></button>
+    
     <div class="col-md-4" id="reservas3" >
         <form method="post" action="/venta/resultadoBusqueda.php" name="buscador">
         <div class="form-inline">
