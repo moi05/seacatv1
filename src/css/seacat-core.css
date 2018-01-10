@@ -34,7 +34,7 @@ nav ul, nav a {
   font-size: 0.8rem;
   padding-top: 1%;
   padding-bottom: 1%;
-  background-color: #009cde;
+  background-color: #ff9933;
   color: white;
   font-weight: 700;
   text-decoration: none; }
@@ -45,8 +45,8 @@ nav li {
   text-align: center;
   font-size: 0.6rem; }
 
-.phonenumber, .fa {
-  color: #009cde;
+.phonenumber {
+  color: #ff9933;
   font-size: 0.8rem;
   font-weight: 800; }
 
@@ -134,7 +134,7 @@ hgroup {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  background-color: #009cde;
+  background-color: #ff9933;
   border: 0px;
   width: 130px;
   height: 35px;
@@ -151,7 +151,7 @@ input.reservar:hover {
 footer {
   padding: 10px 0px;
   width: 100%;
-  background-color: #009cde;
+  background-color: #ff9933;
   position: relative;
   color: #fff;
   font-family: "Lato", sans-serif; }
@@ -169,6 +169,104 @@ footer ul li a {
   font-size: 0.6rem;
   color: #fff;
   list-style: none; }
+
+.dropdown-menu.sub_opc_footer .right-caret::after, .left-caret::after {
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid transparent; }
+
+.footerContenido {
+  margin: auto;
+  width: 1170px;
+  height: 420px; }
+
+footer {
+  width: 100%;
+  margin: 0;
+  background: #ff9933;
+  margin-top: 30px;
+  padding: 10px 0; }
+
+footer .footerContenido menu {
+  float: left;
+  margin: 0; }
+
+.cont_menu_pie {
+  padding-top: 15px; }
+
+.cont_menu_pie, #topVersion {
+  width: calc(100% - 60px);
+  float: left; }
+
+footer .footerContenido menu ul li {
+  color: #fff;
+  float: left;
+  font-size: 0.8rem;
+  line-height: 16px;
+  list-style: outside none none;
+  padding: 0 12px;
+  border-left: 1px solid #ccc; }
+
+footer .footerContenido menu ul li a {
+  color: #fff; }
+
+footer .footerContenido menu ul li a:hover {
+  color: #009cde;
+  cursor: pointer; }
+
+footer .footerContenido menu ul li:nth-of-type {
+  border: 0;
+  padding-left: 0; }
+
+footer .footerContenido .redes {
+  display: block;
+  float: right;
+  margin: 0; }
+
+footer .footerContenido .redes div img {
+  height: 20px; }
+
+footer .footerContenido .redes a {
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 19px; }
+
+footer .footerContenido .redes a:hover {
+  color: #009cde; }
+
+.footerContenido .redes div {
+  float: right; }
+
+iframe#ssIFrame_google {
+  height: 0 !important;
+  border: 0 !important; }
+
+a.btn_afip {
+  float: right; }
+
+a.btn_afip img {
+  width: 50px; }
+
+.sub_opc_footer {
+  padding-top: 0 !important; }
+
+.sub_opc_footer li {
+  border: 0 none !important;
+  padding: 0 !important;
+  width: 100%; }
+
+.sub_opc_footer li a {
+  width: 100%;
+  padding: 3px 15px; }
+
+.sub_opc_footer li ul.sub-menu {
+  padding-top: 9px !important;
+  position: static; }
+
+.sub_opc_footer li ul.sub-menu li a {
+  padding-left: 23px; }
+
+.text-info {
+  color: #ff9933; }
 
 /*
 
@@ -6760,43 +6858,43 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   color: #fff !important; }
 
 .text-muted {
-  color: #636c72 !important; }
+  color: #ff9933 !important; }
 
 a.text-muted:focus, a.text-muted:hover {
   color: #4b5257 !important; }
 
 .text-primary {
-  color: #0275d8 !important; }
+  color: #ff9933 !important; }
 
 a.text-primary:focus, a.text-primary:hover {
   color: #025aa5 !important; }
 
 .text-success {
-  color: #5cb85c !important; }
+  color: #ff9933 !important; }
 
 a.text-success:focus, a.text-success:hover {
   color: #449d44 !important; }
 
 .text-info {
-  color: #5bc0de !important; }
+  color: #ff9933 !important; }
 
 a.text-info:focus, a.text-info:hover {
   color: #31b0d5 !important; }
 
 .text-warning {
-  color: #f0ad4e !important; }
+  color: #ff9933 !important; }
 
 a.text-warning:focus, a.text-warning:hover {
   color: #ec971f !important; }
 
 .text-danger {
-  color: #d9534f !important; }
+  color: #ff9933 !important; }
 
 a.text-danger:focus, a.text-danger:hover {
   color: #c9302c !important; }
 
 .text-gray-dark {
-  color: #292b2c !important; }
+  color: #ff9933 !important; }
 
 a.text-gray-dark:focus, a.text-gray-dark:hover {
   color: #101112 !important; }

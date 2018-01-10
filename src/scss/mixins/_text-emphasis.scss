@@ -2,7 +2,7 @@
 
 @mixin text-emphasis-variant($parent, $color) {
   #{$parent} {
-    color: $color !important;
+    color: $primary-color !important;
   }
   a#{$parent} {
     @include hover-focus {

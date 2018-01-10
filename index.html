@@ -26,10 +26,10 @@
     <header>
         <div class="row">
             <div class="col-md-4" id="logo">                
-               <img src="src/img/logo-seacat.png">
+               <img src="src/img/logo-seacat.png" style="width: 50%">
             </div>               
                 <hgroup class="col-xs-12 col-md-8">                                                                 
-                    <div class="col-xs-4" style="margin-left:0.5rem">Español <i class="fa fa-caret-down"></i></div>
+                    <div class="col-xs-4" style="margin-left:0.5rem">Español <i class="fa fa-caret-down phonenumber"></i></div>
                     <div class="col-xs-4">Venta telefónica </br><span class="phonenumber"><i class="fa fa-phone" aria-hidden="true"></i> 4314 5100</span></div>   
                     <div class="col-xs-4"><img src="src/img/flag-uy.png"width="49" height="37"><img src="src/img/flag-ar.png"></div>         
                 </hgroup>            
@@ -55,7 +55,7 @@
 
     
     <div class="col-md-4" id="reservas3" >
-        <form method="post" action="/venta/resultadoBusqueda.php" name="buscador">
+        <form method="post" action="resultadoBusqueda.html" name="buscador">
         <div class="form-inline">
         <label>Ciudad de origen</label>
         <div class="input-group">
@@ -166,11 +166,11 @@
     
 
     <!-- FOOTER -->
-        <footer>
-            <div class="wrapper" class="col-md-12">           
+        <footer class="footerContenido">
+            <div class="wrapper cont_menu_pie col-md-12">           
                 <div class="col-md-3">
                     <h3>Productos</h3>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled" name="menuBot">
                         <li><a href="/pasajes">Pasajes</a></li>
                         <li><a href="/daytour">Daytour</a></li>
                     </ul>
@@ -192,15 +192,16 @@
                     </ul>
                 </div>
                 <div class="col-md-3">
-                    <h3>Contacto</h3> 
-                        <ul class="list-unstyled">                   
-                        <li>Tel: 011 - 4314-5100</li>
-                        <li><i class="fa fa-facebook"></i></li>      
-                        </ul>          
-                </div>
+                    <h3>Contacto</h3>
+                    <ul class="list-unstyled">
+                        <li>Tel: 011- 4314-5100</li>
+                        <li><div class="redes" ><div ><a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div></li>
+                        <li><div ><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div></div></li>
+                    </ul>
+                </div>          
             </div>
+            <div class="clear" ></div>
         </footer>
-
 
     <!-- SCRIPTS -->
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
