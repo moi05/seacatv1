@@ -105,25 +105,12 @@ hgroup {
         font-weight: 800;
 
     }
-/*-------------------------------------------------
-
-.contenedor-bancos{padding-top:10px;background-color:#f0f0f0;}
-.centrado{margin:0 auto;text-align:center;width:100%;}
-.bancos{color:#777;font-size:19px;max-width:1366px;padding:10px;}
-.bancos-full{display:inline-block;overflow:hidden !important;padding:0 35px;position:relative;vertical-align:middle;width:100%;}
-.bancos-full .owl-prev,.bancos-full .owl-next,.rmd .owl-prev,.rmd .owl-next{cursor:pointer;font-size:25px;width:24px;color:#a5a5a5;position:absolute;height:120%;top:0}
-.rmd .owl-prev,.rmd .owl-next{height:100%}
-.bancos-full .owl-prev .fa, .bancos-full .owl-next .fa,.rmd .owl-prev .fa,.rmd .owl-next .fa{height:25px;left:50%;margin-left:-5px;margin-top:-13px;position:absolute;text-align:center;top:50%;width:10px;}
-.rmd .owl-prev{left:-25px}.rmd .owl-next{right:-25px}
-.bancos-full .owl-prev{box-shadow:8px 0 15px #dadada;left:-24px}
-.bancos-full .owl-next{box-shadow:-8px 0 15px #dadada;right:-24px}
-.img_bank{height:48px;line-height:46px;}.img_bank img{max-width:100%;max-height:48px;vertical-align:middle}
-.item-bancos{cursor:pointer;font-size:12px;text-align:center;}
+/*-------------------------------------------------*/
 
 #cont-bodegas {
     padding-bottom: 5%;
 }
-*/
+
 
 #reservas {
     background-color: rgba(255,255,255,0.90);
@@ -230,6 +217,81 @@ hgroup {
 
 #ui-datepicker-div {
     z-index: 100 !important;
+}
+
+
+.contenedor-bancos{
+    padding-top:10px;
+    background-color:#f0f0f0;
+}
+.centrado{
+    margin:0 
+    auto;text-align:center;
+    width:100%;
+}
+.bancos{
+    color:#777;
+    font-size:19px;
+    max-width:1366px;
+    padding:10px;
+}
+.bancos-full{
+    display:inline-block;
+    overflow:hidden !important;
+    padding:0 35px;
+    position:relative;
+    vertical-align:middle;
+    width:100%;
+}
+.bancos-full .owl-prev,.bancos-full .owl-next,.rmd .owl-prev,.rmd .owl-next{
+    cursor:pointer;
+    font-size:25px;
+    width:24px;
+    color:#a5a5a5;
+    position:absolute;
+    height:120%;
+    top:0
+}
+.rmd .owl-prev,.rmd .owl-next{
+    height:100%
+}
+.bancos-full .owl-prev .fa, .bancos-full .owl-next .fa,.rmd .owl-prev .fa,.rmd .owl-next .fa{
+    height:25px;
+    left:50%;
+    margin-left:
+    -5px;
+    margin-top:-13px;
+    position:absolute;
+    text-align:center;
+    top:50%;
+    width:10px;
+}
+.rmd .owl-prev{
+    left:-25px
+}.rmd .owl-next{
+    right:-25px
+}
+.bancos-full .owl-prev{
+    box-shadow:8px 0 15px #dadada;
+    left:-24px
+}
+.bancos-full .owl-next{
+    box-shadow:-8px 0 15px #dadada;
+    right:-24px
+}
+.img_bank{
+    height:48px;
+    line-height:46px;
+}
+.img_bank img{
+    max-width:100%;
+    max-height:48px;
+    vertical-align:middle
+}
+.item-bancos{
+    cursor:pointer;
+    font-size:12px;
+    text-align:center;
 }
 
 footer {
