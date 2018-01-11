@@ -1,8 +1,8 @@
 
 
-$primary-color: rgb(255,153,51);
-$secundary-color-dark: rgb(227,6,20);
-$secundary-color: rgb(51,153,255); 
+$primary-color: rgb(5,159,223);
+$secondary-color-dark: rgb(204,100,25);
+$secondary-color: rgb(255, 153, 51); 
 $primary-font: 'Lato', sans-serif;
 $normal-font-size: 0.8rem;
 $small-font-size: 0.6rem;
@@ -35,9 +35,21 @@ body {
 }
 
 /*-------navbar--------------------------------------*/
+.bgimg {
+
+    background-image: url("../img/bgimg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    width: 100%;    
+    height: 800px;
+    position: absolute;
+    z-index: -1;
+}
+
 header {
     margin: auto;     
-    padding-left: 5%;
+    padding-left: 5%;   
+
 }
 
 #logo {
@@ -75,16 +87,46 @@ nav{
 hgroup {
     display:flex;     
     font-size: $small-font-size;     
-    margin-top: 5%;
+    margin-top: 5%;    
 }
 
-/*-------------------------------------------------*/
+.btn-arribos {
+        color: #fff;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background-color: $secondary-color;
+        border: 0px;
+        width: 160px;
+        height: 30px;
+        font-size: $normal-font-size;
+        font-family: $primary-font;
+        float: right;
+        font-weight: 800;
+
+    }
+/*-------------------------------------------------
+
+.contenedor-bancos{padding-top:10px;background-color:#f0f0f0;}
+.centrado{margin:0 auto;text-align:center;width:100%;}
+.bancos{color:#777;font-size:19px;max-width:1366px;padding:10px;}
+.bancos-full{display:inline-block;overflow:hidden !important;padding:0 35px;position:relative;vertical-align:middle;width:100%;}
+.bancos-full .owl-prev,.bancos-full .owl-next,.rmd .owl-prev,.rmd .owl-next{cursor:pointer;font-size:25px;width:24px;color:#a5a5a5;position:absolute;height:120%;top:0}
+.rmd .owl-prev,.rmd .owl-next{height:100%}
+.bancos-full .owl-prev .fa, .bancos-full .owl-next .fa,.rmd .owl-prev .fa,.rmd .owl-next .fa{height:25px;left:50%;margin-left:-5px;margin-top:-13px;position:absolute;text-align:center;top:50%;width:10px;}
+.rmd .owl-prev{left:-25px}.rmd .owl-next{right:-25px}
+.bancos-full .owl-prev{box-shadow:8px 0 15px #dadada;left:-24px}
+.bancos-full .owl-next{box-shadow:-8px 0 15px #dadada;right:-24px}
+.img_bank{height:48px;line-height:46px;}.img_bank img{max-width:100%;max-height:48px;vertical-align:middle}
+.item-bancos{cursor:pointer;font-size:12px;text-align:center;}
+
 #cont-bodegas {
     padding-bottom: 5%;
 }
+*/
 
 #reservas {
-    background-color: rgba(255,255,255,0.95);
+    background-color: rgba(255,255,255,0.90);
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
@@ -97,7 +139,7 @@ hgroup {
     position: relative;
 }
 #reservas2 {
-    background-color: rgba(255,255,255,0.95);
+    background-color: rgba(255,255,255,0.90);
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
@@ -119,7 +161,7 @@ hgroup {
     margin-bottom: 6px;
 }
 #reservas2 label, #reservas label {
-    color: #07254D;
+    color: $secondary-color-dark;
     font-size: $small-font-size;
     font-family: $primary-font;
 }
@@ -136,6 +178,23 @@ hgroup {
     font-family:$primary-font;
     float: right;
 }
+
+ #reservas3{
+        background-color: rgba(255,255,255,0.90);
+        width: 100%;
+        height: 380px;
+        margin-top: 0px;
+        padding-bottom: 20px;
+        display: block;
+        position: relative;
+        z-index: 3;
+        top: 0px;
+        left: 0px; 
+        clear: both;
+        margin-left: 100px;        
+        margin-bottom: 420px;
+        border-radius: 10px;
+    }
 
 .btnreservas i {
     position: absolute;
@@ -169,22 +228,19 @@ hgroup {
         float: right;
     }
 
-input.reservar:hover{
-    text-decoration: underline;
-}
-
 #ui-datepicker-div {
     z-index: 100 !important;
 }
 
-
 footer {
-    padding: 10px 0px;
     width: 100%;
     background-color: $primary-color;
-    position: relative;
     color: #fff;
     font-family: $primary-font;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
 }
 
 footer h3 {
@@ -210,9 +266,8 @@ footer ul li a {
 }
 
 .footerContenido{
-    margin:auto;
-    width:1170px;
-    height: 420px;  
+    width:100%;
+    height: 220px;  
 }
 
 footer{
@@ -228,7 +283,9 @@ footer .footerContenido menu{
     margin:0;
 }
 .cont_menu_pie{
-    padding-top:15px;
+    padding-top:60px;
+    padding-left:80px;
+
 }
 
 .cont_menu_pie,#topVersion{
@@ -237,7 +294,8 @@ footer .footerContenido menu{
 }
 
 footer .footerContenido menu ul li{
-    color:#fff;float:left;
+    color:#fff;
+    float:left;
     font-size:$normal-font-size;
     line-height:16px;
     list-style:outside none none;
@@ -250,7 +308,7 @@ footer .footerContenido menu ul li a{
 }
 
 footer .footerContenido menu ul li a:hover{
-    color:#009cde;
+    color:$secondary-color-dark;
     cursor:pointer;
 }
 
@@ -261,7 +319,6 @@ footer .footerContenido menu ul li:nth-of-type{
 
 footer .footerContenido .redes{
     display:block;
-    float:right;
     margin:0;
 }
 
@@ -276,10 +333,6 @@ footer .footerContenido .redes a{
 
 footer .footerContenido .redes a:hover{
     color:#009cde;
-}
-
-.footerContenido .redes div{
-    float:right;
 }
 
 iframe#ssIFrame_google{
@@ -357,19 +410,7 @@ a.btn_afip img{
         top: 57px;
         left: 10px;
     }
-    #reservas3{
-        background-color: rgba(255,255,255,0.95);
-        width: 100%;
-        height: 449px;
-        margin-top: 0px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        display: block;
-        position: relative;
-        z-index: 3;
-        top: 0px;
-        left: 0px;
-    }
+   
 
     #reservas3 h5 {
         color: #E2231A;
