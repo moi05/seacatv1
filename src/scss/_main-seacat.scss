@@ -105,6 +105,38 @@ hgroup {
         font-weight: 800;
 
     }
+
+.btn-nueva {
+        color: #fff;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background-color: $primary-color;
+        border: 0px;
+        width: 160px;
+        height: 30px;
+        font-size: $normal-font-size;
+        font-family: $primary-font;
+        float: right;
+        font-weight: 800;
+
+    }
+
+.btn-continuar {
+        color: #fff;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background-color: rgb(74,176,59);
+        border: 0px;
+        width: 160px;
+        height: 30px;
+        font-size: $normal-font-size;
+        font-family: $primary-font;
+        float: right;
+        font-weight: 800;
+
+    }
 /*-------------------------------------------------*/
 
 #cont-bodegas {
@@ -219,7 +251,6 @@ hgroup {
     z-index: 100 !important;
 }
 
-
 .contenedor-bancos{
     padding-top:10px;
     background-color:#f0f0f0;
@@ -245,7 +276,7 @@ hgroup {
 }
 .bancos-full .owl-prev,.bancos-full .owl-next,.rmd .owl-prev,.rmd .owl-next{
     cursor:pointer;
-    font-size:25px;
+    font-size:$normal-font-size;
     width:24px;
     color:#a5a5a5;
     position:absolute;
@@ -258,8 +289,7 @@ hgroup {
 .bancos-full .owl-prev .fa, .bancos-full .owl-next .fa,.rmd .owl-prev .fa,.rmd .owl-next .fa{
     height:25px;
     left:50%;
-    margin-left:
-    -5px;
+    margin-left:-5px;
     margin-top:-13px;
     position:absolute;
     text-align:center;
@@ -290,7 +320,7 @@ hgroup {
 }
 .item-bancos{
     cursor:pointer;
-    font-size:12px;
+    font-size:$normal-font-size;
     text-align:center;
 }
 

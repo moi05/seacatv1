@@ -78,6 +78,34 @@ hgroup {
   float: right;
   font-weight: 800; }
 
+.btn-nueva {
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #059fdf;
+  border: 0px;
+  width: 160px;
+  height: 30px;
+  font-size: 0.8rem;
+  font-family: "Lato", sans-serif;
+  float: right;
+  font-weight: 800; }
+
+.btn-continuar {
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #4ab03b;
+  border: 0px;
+  width: 160px;
+  height: 30px;
+  font-size: 0.8rem;
+  font-family: "Lato", sans-serif;
+  float: right;
+  font-weight: 800; }
+
 /*-------------------------------------------------*/
 #cont-bodegas {
   padding-bottom: 5%; }
@@ -209,7 +237,7 @@ hgroup {
 
 .bancos-full .owl-prev, .bancos-full .owl-next, .rmd .owl-prev, .rmd .owl-next {
   cursor: pointer;
-  font-size: 25px;
+  font-size: 0.8rem;
   width: 24px;
   color: #a5a5a5;
   position: absolute;
@@ -254,7 +282,7 @@ hgroup {
 
 .item-bancos {
   cursor: pointer;
-  font-size: 12px;
+  font-size: 0.8rem;
   text-align: center; }
 
 footer {

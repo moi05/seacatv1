@@ -21,7 +21,23 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>   
-  <div class="col-md-12 pull-right">     
+
+    <!-- HEADER -->
+    <header>
+        <div class="row">
+            <div class="col-md-4" id="logo">                
+               <img src="src/img/logo-seacat.png" style="width: 50%">
+            </div>               
+                <hgroup class="col-xs-12 col-md-8" style="padding-right: 0;padding-left: 500px;">                                                                 
+                    <div class="col-xs-4" style="margin-left:0.5rem; margin-right:35px">Español <i class="fa fa-caret-down phonenumber"></i></div>
+                    <div class="col-xs-4" style="margin-right:35px">Venta telefónica </br><span class="phonenumber"><i class="fa fa-phone" aria-hidden="true"></i> 4314 5100</span></div>   
+                    <div class="col-xs-4"><img src="src/img/flag-uy.png"width="32"style="padding-top: 2px""><img src="src/img/flag-ar.png" width="32""></div>         
+                </hgroup>            
+        </div>    
+    </header>
+
+    <!-- TABLE -->
+  <div class="col-md-12 pull-right" style="margin-top: 2%;">     
       <h4>Seleccionar Ida <span class="text-info">Dom 29/01/17</span></h4>
 
       <div class="row navBorder">
@@ -363,10 +379,11 @@
             </tr>
 
           </tbody>
-        </table>
-      </div>
-
+        </table>       
     </div>
+    <div class="form-action"><button class="btn-continuar" type="submit">Continuar</button></div>
+    <div class="form-action"><button class="btn-nueva" type="submit" style="margin-right: 2%;">Nueva búsqueda</button></div>
+    
 
 <!-- SCRIPTS -->
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
