@@ -178,6 +178,22 @@ hgroup {
     padding-bottom: 5%;
 }
 
+.form-control {
+    font-family: $primary-font !important;
+    font-size: $normal-font-size;
+}
+
+.input-group {    
+    max-width: 88% !important;
+}
+
+.form-inline {
+    padding-top: 2% !important;
+}
+
+#edades {    
+    max-width: 98% !important;
+}
 
 #reservas {
     background-color: rgba(255,255,255,0.90);
@@ -234,21 +250,22 @@ hgroup {
 }
 
  #reservas3{
-        background-color: rgba(255,255,255,0.90);
-        width: 100%;
-        height: 380px;
-        padding-bottom: 10px;
-        display: block;
-        position: relative;
-        z-index: 3;
-        top: 0px;
-        left: 0px; 
-        clear: both;
-        margin-left: 100px;        
-        margin-bottom: 420px;
-        border-radius: 10px;
-        margin-top: 30px;
-        padding-top: 20px;
+    background-color: rgba(255,255,255,0.90);
+    width: 100%;
+    height: 380px;
+    padding-bottom: 10px;
+    display: block;
+    position: relative;
+    z-index: 3;
+    top: 0px;
+    left: 0px; 
+    clear: both;
+    margin-left: 100px;        
+    margin-bottom: 420px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 30px;        
+    padding-left: 30px;
     }
 
 .btnreservas i {
@@ -280,7 +297,9 @@ hgroup {
         height: 35px;
         font-size: $normal-font-size;
         font-family: $primary-font;
-        float: right;
+        float: left;
+        margin-left: 245px;
+        margin-top: -30px;
     }
 
 #ui-datepicker-div {

@@ -138,6 +138,19 @@ hgroup {
 #cont-bodegas {
   padding-bottom: 5%; }
 
+.form-control {
+  font-family: "Lato", sans-serif !important;
+  font-size: 0.8rem; }
+
+.input-group {
+  max-width: 88% !important; }
+
+.form-inline {
+  padding-top: 2% !important; }
+
+#edades {
+  max-width: 98% !important; }
+
 #reservas {
   background-color: rgba(255, 255, 255, 0.9);
   -webkit-border-radius: 8px;
@@ -206,7 +219,8 @@ hgroup {
   margin-bottom: 420px;
   border-radius: 10px;
   margin-top: 30px;
-  padding-top: 20px; }
+  padding-top: 30px;
+  padding-left: 30px; }
 
 .btnreservas i {
   position: absolute;
@@ -236,7 +250,9 @@ hgroup {
   height: 35px;
   font-size: 0.8rem;
   font-family: "Lato", sans-serif;
-  float: right; }
+  float: left;
+  margin-left: 245px;
+  margin-top: -30px; }
 
 #ui-datepicker-div {
   z-index: 100 !important; }
