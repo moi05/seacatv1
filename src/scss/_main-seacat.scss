@@ -180,7 +180,6 @@ hgroup {
 
 .form-control {
     font-family: $primary-font !important;
-    font-size: $normal-font-size;
 }
 
 .input-group {    
@@ -193,6 +192,10 @@ hgroup {
 
 #edades {    
     max-width: 98% !important;
+}
+
+h1 {    
+    font-size: $small-font-size !important;
 }
 
 #reservas {

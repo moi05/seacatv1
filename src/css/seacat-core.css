@@ -139,8 +139,7 @@ hgroup {
   padding-bottom: 5%; }
 
 .form-control {
-  font-family: "Lato", sans-serif !important;
-  font-size: 0.8rem; }
+  font-family: "Lato", sans-serif !important; }
 
 .input-group {
   max-width: 88% !important; }
@@ -150,6 +149,9 @@ hgroup {
 
 #edades {
   max-width: 98% !important; }
+
+h1 {
+  font-size: 0.6rem !important; }
 
 #reservas {
   background-color: rgba(255, 255, 255, 0.9);
