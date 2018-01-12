@@ -56,6 +56,9 @@ nav li {
   text-align: center;
   font-size: 0.6rem; }
 
+#contenedor-nav {
+  height: 55px !important; }
+
 .phonenumber {
   color: #059fdf;
   font-size: 0.8rem;
