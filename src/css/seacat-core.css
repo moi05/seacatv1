@@ -189,7 +189,7 @@ h1 {
   margin-bottom: 6px; }
 
 #reservas2 label, #reservas label {
-  color: #cc6419;
+  color: #004d81;
   font-size: 0.6rem;
   font-family: "Lato", sans-serif; }
 
@@ -294,9 +294,9 @@ h1 {
   transform: translate3d(-1045px, 0px, 0px); }
 
 .owl-item {
-  width: 209px; }
+  width: 209px !important; }
 
-.bancos-full .owl-prev, .bancos-full .owl-next, .rmd .owl-prev, .rmd .owl-next {
+.bancos-full .owl-prev, .bancos-full .owl-next, .owl-prev, .owl-next {
   cursor: pointer;
   font-size: 0.8rem;
   width: 24px;
@@ -305,10 +305,10 @@ h1 {
   height: 120%;
   top: 0; }
 
-.rmd .owl-prev, .rmd .owl-next {
+.owl-prev, .owl-next {
   height: 100%; }
 
-.bancos-full .owl-prev .fa, .bancos-full .owl-next .fa, .rmd .owl-prev .fa, .rmd .owl-next .fa {
+.bancos-full .owl-prev .fa, .bancos-full .owl-next .fa, .owl-prev .fa, .owl-next .fa {
   height: 25px;
   left: 50%;
   margin-left: -5px;
@@ -318,10 +318,10 @@ h1 {
   top: 50%;
   width: 10px; }
 
-.rmd .owl-prev {
+.owl-prev {
   left: -25px; }
 
-.rmd .owl-next {
+.owl-next {
   right: -25px; }
 
 .bancos-full .owl-prev {
@@ -346,6 +346,45 @@ h1 {
   font-size: 0.8rem;
   text-align: center; }
 
+.newsletter ul {
+  background-color: #ff9933;
+  list-style-type: none;
+  font-size: 0.8rem;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  padding-left: 350px;
+  margin-bottom: 0; }
+.newsletter li {
+  float: left;
+  padding-right: 5%;
+  padding-left: 2.5%;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 0.8rem; }
+
+#promo-newsletter {
+  color: #004d81; }
+
+#emailAddress {
+  border-radius: 8px; }
+
+.btn-suscribirme {
+  color: #fff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #059fdf;
+  border: 0px;
+  width: 160px;
+  height: 30px;
+  font-size: 0.8rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 800; }
+
 footer {
   width: 100%;
   background-color: #059fdf;
@@ -354,11 +393,13 @@ footer {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 0px; }
+  padding: 0px;
+  padding-top: 0; }
 
 footer h3 {
   font-family: "Lato", sans-serif;
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+  font-weight: 700; }
 
 footer h2 {
   font-family: "Lato", sans-serif;
@@ -366,7 +407,7 @@ footer h2 {
 
 footer ul li a {
   font-family: "Lato", sans-serif;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: #fff;
   list-style: none; }
 
@@ -382,7 +423,6 @@ footer {
   width: 100%;
   margin: 0;
   background: #059fdf;
-  margin-top: 30px;
   padding: 10px 0; }
 
 footer .footerContenido menu {
@@ -410,7 +450,7 @@ footer .footerContenido menu ul li a {
   color: #fff; }
 
 footer .footerContenido menu ul li a:hover {
-  color: #cc6419;
+  color: #004d81;
   cursor: pointer; }
 
 footer .footerContenido menu ul li:nth-of-type {
