@@ -30,10 +30,10 @@
             <div class="col-md-4" id="logo">                
                <img src="src/img/logo-seacat.png">
             </div>               
-                <hgroup class="col-xs-12 col-md-8" style="padding-right: 0;padding-left: 500px;">                                                                 
-                    <div class="col-xs-4" style="margin-left:0.5rem; margin-right:35px">Español <i class="fa fa-caret-down phonenumber"></i></div>
-                    <div class="col-xs-4" style="margin-right:35px">Venta telefónica </br><span class="phonenumber"><i class="fa fa-phone" aria-hidden="true"></i> 4314 5100</span></div>   
-                    <div class="col-xs-4"><img src="src/img/flag-uy.png" width="32" style="padding-top: 2px""><img src="src/img/flag-ar.png" width="32""></div>         
+                <hgroup class="col-xs-12 col-md-8">                                                                 
+                    <div class="col-xs-4" id="hgroup-col1">Español <i class="fa fa-caret-down phonenumber"></i></div>
+                    <div class="col-xs-4" id="hgroup-col2">Venta telefónica </br><span class="phonenumber"><i class="fa fa-phone" aria-hidden="true"></i> 4314 5100</span></div>   
+                    <div class="col-xs-4"><img src="src/img/flag-uy.png" id="flag-uy" width="32"><img src="src/img/flag-ar.png" width="32"></div>         
                 </hgroup>            
         </div>    
     </header>
@@ -44,16 +44,15 @@
             <ul>              
               <li><a href="#">Modificar Pasajes</a></li>
               <li><a href="#">Promociones Bancarias</a></li>
-              <li><div class="form-action"><button class="btn-arribos" type="submit">Arribos y partidas</button></div></li>
-              <li style="font-size: 14px; float:right;"><i class="fa fa-user" aria-hidden="true" style="margin-right:5px;"></i>Iniciar Sesión<i class="fa fa-caret-down" style="margin-left:5px;"></i></li>
-
+              <li id="li-btn-arribos"><div class="form-action"><button class="btn-arribos" type="submit">Arribos y partidas</button></div></li>
+              <li id="nav-login"><i class="fa fa-user" aria-hidden="true"></i>Iniciar Sesión<i class="fa fa-caret-down"></i></li>
             </ul>                    
         </nav>
     </div>
 
-    <!-- FORM -->      
-    <div class="contents">
-    <div class="bgimg"></div>
+    <!-- FORM -->    
+    <div class="bgimg"></div>  
+    <div class="contents">    
     <div class="col-md-4" id="reservas3" >
         <form method="post" action="resultadoBusqueda.html" name="buscador">
         <div class="form-group">
@@ -174,94 +173,94 @@
 
     <div class="centrado bancos">
         <div class="bancos-full">
-            <div class="img-bancos owl-carousel owl-theme" style="opacity: 1; display: block;">
+            <div class="img-bancos owl-carousel owl-theme">
                 <div class="owl-wrapper-outer">
-                    <div class="owl-wrapper" style="width: 6270px; left: 0px; display: block; transition: all 800ms ease; transform: translate3d(-1045px, 0px, 0px);"> 
-                        <div class="owl-item" style="width: 209px;">
+                    <div class="owl-wrapper"> 
+                        <div class="owl-item">
                             <div class="item-bancos">
                                 <div class="img_bank"><img src="src/img/MAST.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','MAST','_self');">
                                 </div> 18 CUOTAS
                             </div>
                         </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/municipal.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','municipal','_self');">
                                 </div> 12 CUOTAS
                             </div>
                         </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/ciudad.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','ciudad','_self');">
                             </div> 12 CUOTAS
                         </div>
                     </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/comafi.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','comafi','_self');">
                             </div> 12 CUOTAS
                         </div>
                     </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/macro_selecta.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','macro_selecta','_self');">
                             </div> 12 CUOTAS
                         </div>
                     </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/DINN.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','DINN','_self');">
                             </div> 12 CUOTAS
                         </div>
                     </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/galicia.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','galicia','_self');">
                             </div>6 CUOTAS
                         </div>
                     </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/hipotecario.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','hipotecario','_self');">
                             </div>6 CUOTAS
                         </div>
                     </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/itau2.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','itau','_self');">
                             </div>6 CUOTAS
                         </div>
                     </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/superv.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','superv','_self');">
                             </div>6 CUOTAS
                         </div>
                     </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/santafe.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','santafe','_self');">
                             </div>6 CUOTAS
                         </div>
                     </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/provencred.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','provencred','_self');">
                             </div>6 CUOTAS
                         </div>
                     </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/hsbc.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','hsbc','_self');">
                             </div>6 CUOTAS
                         </div>
                     </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/NARA.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','NARA','_self');">
                             </div>6 CUOTAS
                         </div>
                     </div>
-                    <div class="owl-item" style="width: 209px;">
+                    <div class="owl-item"  >
                         <div class="item-bancos">
                             <div class="img_bank"><img src="src/img/CABA.png" onclick="goToPromoBancos('https://www.buquebus.com/promociones-bancarias','CABA','_self');">
                             </div> 3 CUOTAS
@@ -330,7 +329,7 @@
                         <li><div ><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div></div></li>
                     </ul>
                 <div class="col-sm-3">                               
-                        <a href="https://servicios1.afip.gov.ar/clavefiscal/qr/mobilePublicInfo.aspx?req=e1ttZXRob2Q9Z2V0UHVibGljSW5mb11bcGVyc29uYT0zMDcwOTI0MTIzN11bdGlwb2RvbWljaWxpbz0wXVtzZWN1ZW5jaWE9MF1bdXJsPWh0dHA6Ly93d3cuc2VhY2F0Y29sb25pYS5jb20vXX0=" target="_blank"><img src="src/img/DATAWEB.jpg" style="max-height:70px;"></a><a href="http://www.jus.gov.ar/datos-personales.aspx/" target="_blank"><img src="src/img/pdp2017.jpg" style="padding-left: 15%;max-height:70px;"></a>                      
+                        <a href="https://servicios1.afip.gov.ar/clavefiscal/qr/mobilePublicInfo.aspx?req=e1ttZXRob2Q9Z2V0UHVibGljSW5mb11bcGVyc29uYT0zMDcwOTI0MTIzN11bdGlwb2RvbWljaWxpbz0wXVtzZWN1ZW5jaWE9MF1bdXJsPWh0dHA6Ly93d3cuc2VhY2F0Y29sb25pYS5jb20vXX0=" target="_blank"><img id="dataweb" src="src/img/DATAWEB.jpg"></a><a href="http://www.jus.gov.ar/datos-personales.aspx/" target="_blank"><img id="pdp"src="src/img/pdp2017.jpg"></a>                      
                    
                 </div>     
             </div>                
