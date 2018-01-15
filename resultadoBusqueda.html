@@ -4,53 +4,54 @@
   <!-- GENERAL -->
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="viewport" content="width=device-width">
+        <!-- favicon -->
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="src/img/favicon.ico" type="image/x-icon">
   <!-- TITLE -->
   <title>Seacat</title>
   <meta name="description" content="">
 
   <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-   
+    <link rel="stylesheet" href="src/js/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/js/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
    <!-- <link href="src/css/seacat.min.css" rel="stylesheet">-->   
     <link href="src/css/seacat-core.css" rel="stylesheet">
-
-    <!-- favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>   
 
     <!-- HEADER -->
     <header>
         <div class="row">
             <div class="col-md-4" id="logo">                
-               <img src="src/img/logo-seacat.png" style="width: 50%">
+               <img src="src/img/logo-seacat.png">
             </div>               
-                <hgroup class="col-xs-12 col-md-8" style="padding-right: 0;padding-left: 500px;">                                                                 
-                    <div class="col-xs-4" style="margin-left:0.5rem; margin-right:35px">Español <i class="fa fa-caret-down phonenumber"></i></div>
-                    <div class="col-xs-4" style="margin-right:35px">Venta telefónica </br><span class="phonenumber"><i class="fa fa-phone" aria-hidden="true"></i> 4314 5100</span></div>   
-                    <div class="col-xs-4"><img src="src/img/flag-uy.png"width="32"style="padding-top: 2px""><img src="src/img/flag-ar.png" width="32""></div>         
+                <hgroup class="col-xs-12 col-md-8">                                                                 
+                    <div class="col-xs-4" id="hgroup-col1">Español <i class="fa fa-caret-down phonenumber"></i></div>
+                    <div class="col-xs-4" id="hgroup-col2">Venta telefónica </br><span class="phonenumber"><i class="fa fa-phone" aria-hidden="true"></i> 4314 5100</span></div>   
+                    <div class="col-xs-4"><img src="src/img/flag-uy.png" id="flag-uy" width="32"><img src="src/img/flag-ar.png" width="32"></div>         
                 </hgroup>            
         </div>    
     </header>
 
     <!-- TABLE -->
-  <div class="col-md-12 pull-right" style="margin-top: 2%;">     
-      <h4>Seleccionar Ida <span class="text-info">Dom 29/01/17</span></h4>
-
+    <p id="compras-online">COMPRAS ONLINE</p>
+    <h4 class="seleccionar">Seleccionar Ida <span class="text-info">Dom 29/01/17</span></h4>
+    <div class="row seleccionar">      
       <div class="row navBorder">
-        <table class="table table-striped table-bordered table-hover table-pasajes">
+        <table class="table table-striped table-bordered table-hover table-pasajes table-responsive">
           <thead>
             <tr>
-              <th width="10%">Salida</th>
-              <th>Parada</th>
-              <th width="10%">Llegada</th>
-              <th>Duración del viaje</th>
-              <th width="10%" class="economica">Económica</th>
-              <th class="turista" colspan="2">Turista</th>
-              <th class="bodega" colspan="2">Bodega</th>
+              <th scope="row">Salida</th>
+              <th scope="row">Parada</th>
+              <th scope="row">Llegada</th>
+              <th scope="row">Duración del viaje</th>
+              <th scope="row">Económica</th>
+              <th scope="row"colspan="2">Turista</th>
+              <th scope="row"colspan="2">Bodega</th>
             </tr>
           </thead>
           <tbody>
@@ -86,31 +87,31 @@
                 <br><span class="text-info">ARS 2.800</span>
                 <br>Lugares 5
               </td>
-              <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
  -Admite cambio de fecha abonando cargo por 
  modificación y diferencia a la tarifa disponible. 
  -Permite devolución con retención del valor 
- del pasaje." onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Programada
+ del pasaje." onmouseout="this.bgColor='';" >Programada
                 <br><span class="text-info">ARS 3.500</span></td>
-              <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
  -Admite cambio de fecha abonando diferencia a la tarifa 
  disponible. 
  -Permite devolución con retención del valor 
- del pasaje." onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Flexible
+ del pasaje." onmouseout="this.bgColor='';" >Flexible
                 <br><span class="text-info">ARS 3.600</span></td>
               
               
-              <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
  -Admite cambio de fecha abonando cargo por 
  modificación y diferencia a la tarifa disponible. 
  -Permite devolución con retención del valor 
- del pasaje." onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Programada
+ del pasaje." onmouseout="this.bgColor='';">Programada
                 <br><span class="text-info">ARS 2.500</span></td>
-              <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
  -Admite cambio de fecha abonando diferencia a la tarifa 
  disponible. 
  -Permite devolución con retención del valor 
- del pasaje." onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Flexible
+ del pasaje." onmouseout="this.bgColor='';">Flexible
                 <br><span class="text-info">ARS 2.600</span></td>
             </tr>
 
@@ -139,26 +140,26 @@
                 <br>
               </td>
               <td class="text-left">5h 30m</td>
-              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Económica
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';" >Económica
                 <br>Lugares 0
               </td>
-              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Programada
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';">Programada
                 <br><span class="text-info">ARS 2.500</span></td>
-              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Flexible
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Flexible
                 <br><span class="text-info">ARS 2.600</span></td>
               
               
-                <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+                <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
  -Admite cambio de fecha abonando cargo por 
  modificación y diferencia a la tarifa disponible. 
  -Permite devolución con retención del valor 
- del pasaje." onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Programada
+ del pasaje." onmouseout="this.bgColor='';"  >Programada
                 <br><span class="text-info">ARS 1.500</span></td>
-              <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
  -Admite cambio de fecha abonando diferencia a la tarifa 
  disponible. 
  -Permite devolución con retención del valor 
- del pasaje." onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Flexible
+ del pasaje." onmouseout="this.bgColor='';"  >Flexible
                 <br><span class="text-info">ARS 1.600</span></td>
             </tr>
 
@@ -187,47 +188,47 @@
                 <br>
               </td>
               <td class="text-left">5h 30m</td>
-              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Económica
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Económica
                 <br><span class="text-info">ARS 2.000</span>
                 <br>Lugares 15
               </td>
-              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Programada
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Programada
                 <br><span class="text-info">ARS 2.100</span></td>
-              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Flexible
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Flexible
                 <br><span class="text-info">ARS 2.400</span></td>
               
-                <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+                <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
  -Admite cambio de fecha abonando cargo por 
  modificación y diferencia a la tarifa disponible. 
  -Permite devolución con retención del valor 
- del pasaje." onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Programada
+ del pasaje." onmouseout="this.bgColor='';"  >Programada
                 <br><span class="text-info">ARS 1.100</span></td>
-              <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
  -Admite cambio de fecha abonando diferencia a la tarifa 
  disponible. 
  -Permite devolución con retención del valor 
- del pasaje." onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Flexible
+ del pasaje." onmouseout="this.bgColor='';"  >Flexible
                 <br><span class="text-info">ARS 1.400</span></td>
             </tr>
 
           </tbody>
         </table>
       </div>
+    </div>
 
-      <h4>Seleccionar Vuelta <span class="text-info">Dom 12/02/17</span></h4>
-
+    <h4 class="seleccionar">Seleccionar Vuelta <span class="text-info">Dom 12/02/17</span></h4>
+    <div class="row seleccionar">
       <div class="row navBorder">
-
-        <table class="table table-striped table-bordered table-hover table-pasajes">
+        <table class="table table-striped table-bordered table-hover table-pasajes table-responsive">
           <thead>
             <tr>
-              <th width="10%">Salida</th>
-              <th>Parada</th>
-              <th width="10%">Llegada</th>
-              <th>Duración del viaje</th>
-              <th width="10%" class="economica">Económica</th>
-              <th class="turista" colspan="2">Turista</th>
-              <th class="bodega" colspan="2">Bodega</th>
+              <th scope="row">Salida</th>
+              <th scope="row">Parada</th>
+              <th scope="row">Llegada</th>
+              <th scope="row">Duración del viaje</th>
+              <th  scope="row" class="economica">Económica</th>
+              <th  scope="row"class="turista" colspan="2">Turista</th>
+              <th  scope="row"class="bodega" colspan="2">Bodega</th>
             </tr>
           </thead>
           <tbody>
@@ -254,33 +255,33 @@
                 <br>
               </td>
               <td class="text-left">2h 15m</td>
-              <td class="text-left" style="background-color: rgb(255, 181, 97); cursor: pointer;" title="Condiciones: 
+              <td class="text-left" title="Condiciones: 
  -Admite cambio de fecha abonando cargo por 
  modificación y diferencia a la tarifa disponible. 
  -No permite devolución." onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" bgcolor="#ffb561">Económica
                 <br><span class="text-info">ARS 2.800</span>
                 <br>Lugares 6
               </td>
-              <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
  -Admite cambio de fecha abonando cargo por 
  modificación y diferencia a la tarifa disponible. 
  -Permite devolución con retención del valor 
- del pasaje." onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Programada
+ del pasaje." onmouseout="this.bgColor='';"  >Programada
                 <br><span class="text-info">ARS 3.500</span></td>
-              <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
  -Admite cambio de fecha abonando diferencia a la tarifa 
  disponible. 
  -Permite devolución con retención del valor 
- del pasaje." onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Flexible
+ del pasaje." onmouseout="this.bgColor='';"  >Flexible
                 <br><span class="text-info">ARS 3.600</span></td>
              
-              <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
  -Admite cambio de fecha abonando cargo por 
  modificación y diferencia a la tarifa disponible. 
  -Permite devolución con retención del valor 
- del pasaje." onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Programada
+ del pasaje." onmouseout="this.bgColor='';"  >Programada
                 <br><span class="text-info">ARS 2.500</span></td>
-              <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
  -Admite cambio de fecha abonando diferencia a la tarifa 
  disponible. 
  -Permite devolución con retención del valor 
@@ -311,22 +312,22 @@
                 <br>
               </td>
               <td class="text-left">3h 15m</td>
-              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Económica
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Económica
                 <br><span class="text-info">ARS 2.000</span>
                 <br>Lugares 8
               </td>
               <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';">Programada
                 <br><span class="text-info">ARS 2.100</span></td>
-              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Flexible
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Flexible
                 <br><span class="text-info">ARS 2.400</span></td>
               
-                <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+                <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
  -Admite cambio de fecha abonando cargo por 
  modificación y diferencia a la tarifa disponible. 
  -Permite devolución con retención del valor 
  del pasaje." onmouseout="this.bgColor='';">Programada
                 <br><span class="text-info">ARS 1.100</span></td>
-              <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
  -Admite cambio de fecha abonando diferencia a la tarifa 
  disponible. 
  -Permite devolución con retención del valor 
@@ -356,21 +357,21 @@
 
               </td>
               <td class="text-left">1h 15m</td>
-              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Económica
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Económica
                 <br>Lugares 0
               </td>
-              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Programada
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Programada
                 <br><span class="text-info">ARS 2.500</span></td>
-              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';" bgcolor="" style="cursor: pointer;">Flexible
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Flexible
                 <br><span class="text-info">ARS 2.600</span></td>
              
-              <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
  -Admite cambio de fecha abonando cargo por 
  modificación y diferencia a la tarifa disponible. 
  -Permite devolución con retención del valor 
  del pasaje." onmouseout="this.bgColor='';">Programada
                 <br><span class="text-info">ARS 1.500</span></td>
-              <td class="text-left" width="10%" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
  -Admite cambio de fecha abonando diferencia a la tarifa 
  disponible. 
  -Permite devolución con retención del valor 
@@ -381,9 +382,11 @@
           </tbody>
         </table>       
     </div>
-    <div class="form-action"><button class="btn-continuar" type="submit">Continuar</button></div>
-    <div class="form-action"><button class="btn-nueva" type="submit" style="margin-right: 2%;">Nueva búsqueda</button></div>
-    
+  </div> 
+  <div class= "row" id="botones-busqueda-pasajes">
+    <div class="form-action col-xs-6"><button class="btn-continuar" type="submit">Continuar</button></div>
+    <div class="form-action col-xs-6"><button class="btn-nueva" type="submit">Nueva búsqueda</button></div>
+  </div>    
 
 <!-- SCRIPTS -->
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>

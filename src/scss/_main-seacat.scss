@@ -40,7 +40,7 @@ body {
     background-repeat: no-repeat;
     background-size: 1800px;
     width: 100%;    
-    height: 800px;
+    height: 850px;
     position: absolute;
     z-index: -1;
 }
@@ -145,35 +145,37 @@ hgroup {
     margin-left:5px;
 }
 
-.btn-nueva {
-        color: #fff;
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        border-radius: 3px;
-        background-color: $primary-color;
-        border: 0px;
-        width: 160px;
-        height: 30px;
-        font-size: $normal-font-size;
-        font-family: $primary-font;
-        float: right;
-        font-weight: 800;
+#botones-busqueda-pasajes {
+    float: right;
+}
 
+.btn-nueva {
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: $primary-color;
+    border: 0px;
+    width: 160px;
+    height: 30px;
+    font-size: $normal-font-size;
+    font-family: $primary-font;
+    font-weight: 800;
+    margin-left: 20px;
     }
 
 .btn-continuar {
-        color: #fff;
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        border-radius: 3px;
-        background-color: rgb(74,176,59);
-        border: 0px;
-        width: 160px;
-        height: 30px;
-        font-size: $normal-font-size;
-        font-family: $primary-font;
-        float: right;
-        font-weight: 800;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: rgb(74,176,59);
+    border: 0px;
+    width: 160px;
+    height: 30px;
+    font-size: $normal-font-size;
+    font-family: $primary-font;
+    font-weight: 800;
 
     }
 /*-------------------------------------------------*/
@@ -313,6 +315,11 @@ h1 {
     z-index: 100 !important;
 }
 
+.owl-wrapper {
+    background-color: #f0f0f0;    
+    padding-top: 25px;
+}
+
 .img-bank {
     cursor: pointer; 
     text-align:center;
@@ -326,6 +333,26 @@ h1 {
     vertical-align: middle;
 }
 
+/* resultadoBusqueda */
+
+#compras-online {
+    text-align: center;
+    color: $primary-color;
+    font-size: 1.5rem;
+}
+
+.table-pasajes {    
+    margin-left: 10%;
+}
+
+.seleccionar {
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.text-left {
+    cursor: pointer;
+}
 /*
 .bancos-full .owl-prev,.bancos-full .owl-next, .owl-prev, .owl-next{
     cursor:pointer;
