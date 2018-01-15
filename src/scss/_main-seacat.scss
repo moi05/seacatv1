@@ -335,6 +335,20 @@ h1 {
 
 /* resultadoBusqueda */
 
+.divtable .tr {
+  overflow: hidden;
+  clear: both;
+  border-bottom: 1px solid #ccc;
+}
+
+.divtable .th,
+.divtable .td {
+  padding: 5px 10px;
+  float: left;
+}
+
+.divtable .th { font-weight: bold; }
+
 #compras-online {
     text-align: center;
     color: $primary-color;
@@ -602,7 +616,54 @@ a.btn_afip img{
     max-height:70px;
 }
 
+@media (max-width: 767px) {
 
+.accordion-xs .headings { display: none; }
+
+.accordion-xs .tr { border-bottom-color: #fff; }
+
+.accordion-xs .th,
+ .accordion-xs .td {
+  float: none;
+  width: auto;
+  padding: 0;
+}
+
+.accordion-xs .accordion-xs-toggle {
+  background-color: orange;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-xs .accordion-xs-toggle:hover { background-color: #e69500; }
+
+.accordion-xs .accordion-xs-toggle:after {
+  content: '\2b';
+  float: right;
+}
+
+.accordion-xs .accordion-xs-toggle.collapsed:after { content: '\2212'; }
+
+.accordion-xs-collapse .inner { padding: 10px; }
+
+.accordion-xs-collapse .td:before { font-weight: bold; }
+
+.accordion-xs-collapse .lastname:before { content: 'Last Name: '; }
+
+.accordion-xs-collapse .username:before { content: 'Username: '; }
+
+.accordion-xs .accordion-xs-toggle:after {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+}
 /*
 
 @media screen and (max-width: 767px) {
@@ -655,3 +716,4 @@ a.btn_afip img{
 }
 
 */
+

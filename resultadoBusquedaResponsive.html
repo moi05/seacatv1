@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr"> <!-- Parametro de lenguaje dinamico -->
+<head>
+  <!-- GENERAL -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width">
+        <!-- favicon -->
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="src/img/favicon.ico" type="image/x-icon">
+  <!-- TITLE -->
+  <title>Seacat</title>
+  <meta name="description" content="">
+
+  <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="src/js/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/js/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <!-- <link href="src/css/seacat.min.css" rel="stylesheet">-->   
+    <link href="src/css/seacat-core.css" rel="stylesheet">
+</head>
+
+<body>   
+
+    <!-- HEADER -->
+    <header>
+        <div class="row">
+            <div class="col-md-4" id="logo">                
+               <img src="src/img/logo-seacat.png">
+            </div>               
+                <hgroup class="col-xs-12 col-md-8">                                                                 
+                    <div class="col-xs-4" id="hgroup-col1">Español <i class="fa fa-caret-down phonenumber"></i></div>
+                    <div class="col-xs-4" id="hgroup-col2">Venta telefónica </br><span class="phonenumber"><i class="fa fa-phone" aria-hidden="true"></i> 4314 5100</span></div>   
+                    <div class="col-xs-4"><img src="src/img/flag-uy.png" id="flag-uy" width="32"><img src="src/img/flag-ar.png" width="32"></div>         
+                </hgroup>            
+        </div>    
+    </header>
+
+    <!-- TABLE -->
+    <p id="compras-online">COMPRAS ONLINE</p>
+    <h4 class="seleccionar">Seleccionar Ida <span class="text-info">Dom 29/01/17</span></h4>
+    <i class="fa fa-angle-down" aria-hidden="true" onclick="hideTableElements()"></i>
+    <div id="table-pasajes">
+    This is my DIV element.
+    </div>
+
+    <div class="row seleccionar">      
+      <div class="row navBorder">
+        <div class="divtable accordion-xs table table-striped table-bordered table-hover table-pasajes table-responsive">
+          <thead>
+            <div class="tr">
+              <div class="th">Salida</div>
+              <div class="th">Parada</div>
+              <div class="th">Llegada</div>
+              <div class="th">Duración del viaje</div>
+              <div class="th">Económica</div>
+              <div class="th" >Turista</div>
+              <div class="th"  >Bodega</div>
+            </div>
+          </divead>
+          <tbody>
+            <div class="tr">
+              <td class="text-left">
+                Sale <b>07:15 hs</b>
+                <br> Buenos Aires
+                <br> Puerto Madero
+                <br>
+                Francisco
+                <br>
+                <img src="src/img/barco.gif">
+              </td>
+              <td class="text-left">
+                <b>09:30 hs</b>
+                <br> Montevideo
+                <br>
+                <br>
+                <br>
+                <img src="src/img/barco.gif">
+              </td>
+              <td class="text-left">
+                Llega <b>12:30 hs</b>
+                <br> Punta del Este
+                <br> Term. Buses Punta del Este
+                <br>
+              </td>
+              <td class="text-left">3h</td>
+              <td class="text-left economica" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+ -Admite cambio de fecha abonando cargo por 
+ modificación y diferencia a la tarifa disponible. 
+ -No permite devolución.">Económica
+                <br><span class="text-info">ARS 2.800</span>
+                <br>Lugares 5
+              </td>
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+ -Admite cambio de fecha abonando cargo por 
+ modificación y diferencia a la tarifa disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';" >Programada
+                <br><span class="text-info">ARS 3.500</span></td>
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+ -Admite cambio de fecha abonando diferencia a la tarifa 
+ disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';" >Flexible
+                <br><span class="text-info">ARS 3.600</span></td>
+              
+              
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+ -Admite cambio de fecha abonando cargo por 
+ modificación y diferencia a la tarifa disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';">Programada
+                <br><span class="text-info">ARS 2.500</span></td>
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+ -Admite cambio de fecha abonando diferencia a la tarifa 
+ disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';">Flexible
+                <br><span class="text-info">ARS 2.600</span></td>
+            </div>
+
+            <div class="tr">
+              <td class="text-left">
+                Sale <b>08:15 hs</b>
+                <br> Buenos Aires
+                <br> Puerto Madero
+                <br>
+                Rápido
+                <br>
+                <img src="src/img/barco.gif">
+              </td>
+              <td class="text-left">
+                <b>09:30 hs</b>
+                <br> Montevideo
+                <br>
+                <br>
+                <br>
+                <img src="src/img/bus.gif">
+              </td>
+              <td class="text-left">
+                Llega <b>15:00 hs</b>
+                <br> Punta del Este
+                <br> Term. Buses Punta del Este
+                <br>
+              </td>
+              <td class="text-left">5h 30m</td>
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';" >Económica
+                <br>Lugares 0
+              </td>
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';">Programada
+                <br><span class="text-info">ARS 2.500</span></td>
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Flexible
+                <br><span class="text-info">ARS 2.600</span></td>
+              
+              
+                <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+ -Admite cambio de fecha abonando cargo por 
+ modificación y diferencia a la tarifa disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';"  >Programada
+                <br><span class="text-info">ARS 1.500</span></td>
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+ -Admite cambio de fecha abonando diferencia a la tarifa 
+ disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';"  >Flexible
+                <br><span class="text-info">ARS 1.600</span></td>
+            </div>
+
+            <div class="tr">
+              <td class="text-left">
+                Sale <b>09:45 hs</b>
+                <br> Buenos Aires
+                <br> Puerto Madero
+                <br>
+                Lento
+                <br>
+                <img src="src/img/barco.gif">
+              </td>
+              <td class="text-left">
+                <b>13:00 hs</b>
+                <br> Montevideo
+                <br>
+                <br>
+                <br>
+                <img src="src/img/bus.gif">
+              </td>
+              <td class="text-left">
+                Llega <b>18:30 hs</b>
+                <br> Punta del Este
+                <br> Term. Buses Punta del Este
+                <br>
+              </td>
+              <td class="text-left">5h 30m</td>
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Económica
+                <br><span class="text-info">ARS 2.000</span>
+                <br>Lugares 15
+              </td>
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Programada
+                <br><span class="text-info">ARS 2.100</span></td>
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Flexible
+                <br><span class="text-info">ARS 2.400</span></td>
+              
+                <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+ -Admite cambio de fecha abonando cargo por 
+ modificación y diferencia a la tarifa disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';"  >Programada
+                <br><span class="text-info">ARS 1.100</span></td>
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+ -Admite cambio de fecha abonando diferencia a la tarifa 
+ disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';"  >Flexible
+                <br><span class="text-info">ARS 1.400</span></td>
+            </div>
+
+          </tbody>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="seleccionar">Seleccionar Vuelta <span class="text-info">Dom 12/02/17</span></h4>
+    <div class="row seleccionar">
+      <div class="row navBorder">
+        <div class="divtable accordion-xs table table-striped table-bordered table-hover table-pasajes table-responsive">
+          <thead>
+            <div class="tr">
+              <div class="th" >Salida</div>
+              <div class="th" >Parada</div>
+              <div class="th" >Llegada</div>
+              <div class="th" >Duración del viaje</div>
+              <div class="th"   class="economica">Económica</div>
+              <div class="th"  class="turista"  >Turista</div>
+              <div class="th"  class="bodega"  >Bodega</div>
+            </div>
+          </divead>
+          <tbody>
+            <div class="tr">
+              <td class="text-left">
+                Sale <b>07:45 hs</b>
+                <br> Punta del Este
+                <br> Terminal Buses Punta del Este
+
+                                
+                <br>
+                <img src="src/img/bus.gif">
+              </td>
+              <td class="text-left">
+                <b>11:00 hs</b>
+                <br> Montevideo
+                <br>
+                Francisco
+              </td>
+              <td class="text-left">
+                Llega <b>13:15 hs</b>
+                <br> Buenos Aires
+                <br> Puerto Madero
+                <br>
+              </td>
+              <td class="text-left">2h 15m</td>
+              <td class="text-left" title="Condiciones: 
+ -Admite cambio de fecha abonando cargo por 
+ modificación y diferencia a la tarifa disponible. 
+ -No permite devolución." onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" bgcolor="#ffb561">Económica
+                <br><span class="text-info">ARS 2.800</span>
+                <br>Lugares 6
+              </td>
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+ -Admite cambio de fecha abonando cargo por 
+ modificación y diferencia a la tarifa disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';"  >Programada
+                <br><span class="text-info">ARS 3.500</span></td>
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+ -Admite cambio de fecha abonando diferencia a la tarifa 
+ disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';"  >Flexible
+                <br><span class="text-info">ARS 3.600</span></td>
+             
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+ -Admite cambio de fecha abonando cargo por 
+ modificación y diferencia a la tarifa disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';"  >Programada
+                <br><span class="text-info">ARS 2.500</span></td>
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+ -Admite cambio de fecha abonando diferencia a la tarifa 
+ disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';">Flexible
+                <br><span class="text-info">ARS 2.600</span></td>
+            </div>
+
+            <div class="tr">
+              <td class="text-left">
+                Sale<b>13:11 hs</b>
+                <br> Punta del Este
+                <br>Terminal Punta del Este 
+
+                    
+                <br>
+                <img src="src/img/bus.gif">
+              </td>
+              <td class="text-left">
+                <b>18:41 hs</b>
+                <br> Colonia
+                <br>
+                Lento
+              </td>
+              <td class="text-left">
+                Llega <b>21:56 hs</b>
+                <br> Buenos Aires
+                <br> Puerto Madero
+                <br>
+              </td>
+              <td class="text-left">3h 15m</td>
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Económica
+                <br><span class="text-info">ARS 2.000</span>
+                <br>Lugares 8
+              </td>
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';">Programada
+                <br><span class="text-info">ARS 2.100</span></td>
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Flexible
+                <br><span class="text-info">ARS 2.400</span></td>
+              
+                <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+ -Admite cambio de fecha abonando cargo por 
+ modificación y diferencia a la tarifa disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';">Programada
+                <br><span class="text-info">ARS 1.100</span></td>
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+ -Admite cambio de fecha abonando diferencia a la tarifa 
+ disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';">Flexible
+                <br><span class="text-info">ARS 1.400</span></td>
+            </div>
+
+            <div class="tr">
+              <td class="text-left">
+                Sale <b>14:31 hs</b>
+                <br> Punta del Este
+                <br>Terminal Punta del Este 
+                <br>
+                <img src="src/img/bus.gif">
+              </td>
+              <td class="text-left">
+                <b>20:01 hs</b>
+                <br> Colonia
+                <br>
+                Rápido
+              </td>
+              <td class="text-left">
+                llega <b>21:16 hs</b>
+                <br> Buenos Aires
+                <br> Puerto Madero
+                <br>
+
+              </td>
+              <td class="text-left">1h 15m</td>
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Económica
+                <br>Lugares 0
+              </td>
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Programada
+                <br><span class="text-info">ARS 2.500</span></td>
+              <td class="text-left" onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" onmouseout="this.bgColor='';"  >Flexible
+                <br><span class="text-info">ARS 2.600</span></td>
+             
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer' " title="Condiciones: 
+ -Admite cambio de fecha abonando cargo por 
+ modificación y diferencia a la tarifa disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';">Programada
+                <br><span class="text-info">ARS 1.500</span></td>
+              <td class="text-left"    onmouseover="this.bgColor='#ffb561'; this.style.cursor='pointer'" title="Condiciones: 
+ -Admite cambio de fecha abonando diferencia a la tarifa 
+ disponible. 
+ -Permite devolución con retención del valor 
+ del pasaje." onmouseout="this.bgColor='';">Flexible
+                <br><span class="text-info">ARS 1.600</span></td>
+            </div>
+
+          </tbody>
+        </div>       
+    </div>
+  </div> 
+  <div class= "row" id="botones-busqueda-pasajes">
+    <div class="form-action col-xs-6"><button class="btn-continuar" type="submit">Continuar</button></div>
+    <div class="form-action col-xs-6"><button class="btn-nueva" type="submit">Nueva búsqueda</button></div>
+  </div>    
+
+    <!-- SCRIPTS -->
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>  
+    <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>          
+    <!--<script src="node_modules/jquery/dist/jquery.js"></script>      -->
+    <!--<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>-->
+
+     <script>
+     $.datepicker = {
+         closeText: 'Cerrar',
+         prevText: '<Ant',
+         nextText: 'Sig>',
+         currentText: 'Hoy',
+         monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+         monthNamesShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+         dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+         dayNamesShort: ['Dom','Lun','Mar','Mié','Juv','Vie','Sáb'],
+         dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sá'],
+         weekHeader: 'Sm',
+         dateFormat: 'dd/mm/yy',
+         firstDay: 1,
+         isRTL: false,
+         autoSize: true,
+         showMonthAfterYear: false,
+         yearSuffix: ''
+     };
+
+    function hideTableElements() {
+      var x = document.getElementById("table-pasajes");
+      if (x.style.display === "none") {
+          x.style.display = "block";
+      } 
+      else {
+          x.style.display = "none";
+      }
+    }
+
+    $(function() {    
+  var isXS = false,
+      $accordionXSCollapse = $('.accordion-xs-collapse');
+
+  // Window resize event (debounced)
+  var timer;
+  $(window).resize(function () {
+      if (timer) { clearTimeout(timer); }
+      timer = setTimeout(function () {
+          isXS = Modernizr.mq('only screen and (max-width: 767px)');
+          
+          // Add/remove collapse class as needed
+          if (isXS) {
+              $accordionXSCollapse.addClass('collapse');               
+          } else {
+              $accordionXSCollapse.removeClass('collapse');
+          }
+      }, 100);
+  }).trigger('resize'); //trigger window resize on pageload    
+  
+  // Initialise the Bootstrap Collapse
+  $accordionXSCollapse.each(function () {
+      $(this).collapse({ toggle: false });
+  });      
+  
+  // <a href="https://www.jqueryscript.net/accordion/">Accordion</a> toggle click event (live)
+  $(document).on('click', '.accordion-xs-toggle', function (e) {
+      e.preventDefault();
+      
+      var $thisToggle = $(this),
+          $targetRow = $thisToggle.parent('.tr'),
+          $targetCollapse = $targetRow.find('.accordion-xs-collapse');            
+    
+      if (isXS && $targetCollapse.length) { 
+          var $siblingRow = $targetRow.siblings('.tr'),
+              $siblingToggle = $siblingRow.find('.accordion-xs-toggle'),
+              $siblingCollapse = $siblingRow.find('.accordion-xs-collapse');
+          
+          $targetCollapse.collapse('toggle'); //toggle this collapse
+          $siblingCollapse.collapse('hide'); //close siblings
+          
+          $thisToggle.toggleClass('collapsed'); //class used for icon marker
+          $siblingToggle.removeClass('collapsed'); //remove sibling marker class
+      }
+  });
+     
+    </script>
+ </body>   
+ </html>
